@@ -1,0 +1,51 @@
+# Nmap 7.95 scan initiated Mon May 26 20:04:58 2025 as: /usr/lib/nmap/nmap -sS -oN scan_results.txt 192.168.29.45/24
+Nmap scan report for reliance.reliance (192.168.29.1)
+Host is up (0.025s latency).
+Not shown: 990 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+22/tcp   closed ssh
+53/tcp   open   domain
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+MAC Address: 8C:A3:99:A7:D4:4E (Servercom (India) Private Limited)
+
+Nmap scan report for 192.168.29.148
+Host is up (0.0071s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT      STATE SERVICE
+62078/tcp open  iphone-sync
+MAC Address: FE:7A:A7:84:2C:A8 (Unknown)
+
+Nmap scan report for 192.168.29.171
+Host is up (0.043s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+MAC Address: EC:8E:77:A4:69:06 (Unknown)
+
+Nmap scan report for 192.168.29.186
+Host is up (0.00057s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+3306/tcp open  mysql
+MAC Address: 00:F4:8D:DD:C8:2D (Liteon Technology)
+
+Nmap scan report for 192.168.29.200
+Host is up (0.0079s latency).
+All 1000 scanned ports on 192.168.29.200 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 2E:8D:7E:A7:84:1A (Unknown)
+
+Nmap scan report for 192.168.29.45
+Host is up (0.0000060s latency).
+All 1000 scanned ports on 192.168.29.45 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon May 26 20:05:17 2025 -- 256 IP addresses (6 hosts up) scanned in 19.24 seconds
